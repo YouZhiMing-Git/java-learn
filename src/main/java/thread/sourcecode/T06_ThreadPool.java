@@ -30,7 +30,7 @@ public class T06_ThreadPool {
 
 
 
-       /*Future future=executorService.submit(new T());
+       Future future=executorService.submit(new T());
         try {
             System.out.println(future.get());
 
@@ -43,7 +43,7 @@ public class T06_ThreadPool {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
-        }*/
+        }
         System.out.println("End");
         executorService.shutdown();
     }
