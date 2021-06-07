@@ -14,5 +14,7 @@
     <orderEntry type="library" name="Maven: org.openjdk.jol:jol-core:0.14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.9" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.5" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.38.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.31.Final" level="project" />
   </component>
 </module>
