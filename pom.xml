@@ -31,6 +31,13 @@
             <artifactId>netty-common</artifactId>
             <version>4.1.31.Final</version>
         </dependency>
+
+        <!-- rabbit mq java原生依赖 -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.10.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

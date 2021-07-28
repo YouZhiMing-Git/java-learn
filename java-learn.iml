@@ -16,5 +16,7 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.5" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.38.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.31.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:5.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
   </component>
 </module>
