@@ -33,6 +33,9 @@ public class Recv {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            if(delivery.getProperties().getHeaders().get("number")=="1"){
+                channel.basicNack(delivery.getEnvelope().getDeliveryTag(),false,false);
+            }
             channel.basicAck(delivery.getEnvelope().getDeliveryTag(),false);
         }, consumerTag -> {
         });
