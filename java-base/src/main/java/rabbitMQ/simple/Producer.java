@@ -4,7 +4,9 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 import java.util.HashMap;
+
 import java.util.Map;
+
 import java.util.concurrent.TimeoutException;
 
 public class Producer {
@@ -40,9 +42,13 @@ public class Producer {
              * @param4 是否自动删除  随着最后一个消费者消息完毕以后是否吧队列自动删除
              * @param5 携带附属参数
              */
+
             Map map=new HashMap<String,Object>();
             map.put("x-message-ttl",20000);//设置队列属性有效时间为20s
             channel.queueDeclare(queueName, true, false, false, map);
+
+            channel.queueDeclare(queueName, true, false, false, null);
+
             String message = "Hello world345";
             final HashMap<String, Object> headMap = new HashMap<>();
             headMap.put("name", "youzm");

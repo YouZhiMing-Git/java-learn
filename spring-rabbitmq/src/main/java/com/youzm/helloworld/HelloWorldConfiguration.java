@@ -1,14 +1,11 @@
 package com.youzm.helloworld;
 
 
-
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
-import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -83,13 +80,4 @@ public class HelloWorldConfiguration {
         return new ConsumeHandler();
     }
 
-
-    /*@Bean
-    public SimpleMessageListenerContainer listenerContainer() {
-        SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
-        container.setConnectionFactory(connectionFactory());
-        container.setQueueNames(this.QUEUE_NAME);
-        container.setMessageListener(consumeHandler());
-        return container;
-    }*/
 }

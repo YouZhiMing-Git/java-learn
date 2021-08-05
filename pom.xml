@@ -11,6 +11,7 @@
     <modules>
         <module>spring-rabbitmq</module>
         <module>java-base</module>
+<!--<<<<<<< HEAD-->
         <module>spring-boot-rabbitmq</module>
     </modules>
     <parent>
@@ -19,6 +20,9 @@
         <version> 2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+<!--=======
+    </modules>
+>>>>>>> a40ff737cbf1254ea9b67f53cfbe27a5856183fd-->
 
     <dependencies>
        <!-- <dependency>
