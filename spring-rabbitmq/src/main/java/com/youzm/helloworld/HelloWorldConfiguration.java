@@ -18,9 +18,9 @@ public class HelloWorldConfiguration {
     @Bean
     public ConnectionFactory connectionFactory(){
         final CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-        connectionFactory.setHost("192.168.0.172");
+        connectionFactory.setHost("130.3.3.95");
         connectionFactory.setUsername("admin");
-        connectionFactory.setPassword("admin");
+        connectionFactory.setPassword("ehl1234");
         connectionFactory.setVirtualHost("/");
         return connectionFactory;
     }

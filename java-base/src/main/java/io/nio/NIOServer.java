@@ -28,7 +28,7 @@ public class NIOServer {
             if(client==null){
 
             }else {
-                client.configureBlocking(false);// socket（服务端的listen socket《姐姐请求三次握手后，）
+                client.configureBlocking(false);// socket（服务端的listen socket请求三次握手后)
                 clients.add(client);
             }
 
