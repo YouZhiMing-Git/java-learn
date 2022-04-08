@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.youzm.springbootpgsql.dao.JsonTestMapper">
+    <resultMap id="jsonTestMap" type="com.youzm.springbootpgsql.entity.JsonTest">
+        <result column="data" jdbcType="OTHER" javaType="Object" typeHandler="com.youzm.entity.JsonbTypeHandler" property="data" />
+    </resultMap>
+    <select id="getAll" resultMap="jsonTestMap">
+        select * from jsonb_test
+    </select>
+
+    <insert id="insertData" parameterType="com.youzm.entity.JsonTest" keyProperty="id" useGeneratedKeys="true">
+        insert into jsonb_test value (#{data,javaType="Object",jdbcType=OTHER,typeHandler=com.youzm.entity.JsonbTypeHandler})
+    </insert>
+</mapper>
