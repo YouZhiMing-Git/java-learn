@@ -16,4 +16,5 @@ public class OutStreamTest {
             e.printStackTrace();
         }
     }
+
 }
