@@ -7,20 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-mybatis" />
-        <module name="java-base" />
+        <module name="spring-boot-provider" />
+        <module name="spring-boot-consumer" />
         <module name="spring-boot-rabbitmq" />
         <module name="spring-rabbitmq" />
         <module name="spring-boot-pgsql" />
+        <module name="spring-boot-mybatis" />
+        <module name="java-base" />
+        <module name="spring-boot-interface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-cosumer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo" options="-parameters" />
       <module name="java-base" options="-parameters" />
-      <module name="java-learn" options="-parameters" />
+      <module name="java-learn" options="" />
+      <module name="spring-boot-consumer" options="-parameters" />
+      <module name="spring-boot-cosumer" options="-parameters" />
+      <module name="spring-boot-interface" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-pgsql" options="-parameters" />
+      <module name="spring-boot-provider" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-rabbitmq" options="-parameters" />
     </option>

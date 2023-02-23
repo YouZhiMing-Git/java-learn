@@ -13,6 +13,8 @@
         <module>java-base</module>
 <!--<<<<<<< HEAD-->
         <module>spring-boot-rabbitmq</module>
+        <module>dubbo</module>
+        <module>spring-boot-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
