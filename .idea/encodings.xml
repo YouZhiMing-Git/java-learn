@@ -6,10 +6,12 @@
     <file url="file://$PROJECT_DIR$/dubbo/spring-boot-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/spring-boot-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-pgsql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -15,6 +15,8 @@
         <module>spring-boot-rabbitmq</module>
         <module>dubbo</module>
         <module>spring-boot-consumer</module>
+        <module>zookeeper</module>
+        <module>netty</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
